@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+/* ----------------------------------------Image section */
+
+
+#hero-outer {
+    height: 2308px;
+    width: 680px;
+    background-color: #F4F7F8;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#logo {
+    text-align: center;
+    font-size: 240%;
+    color: #000;
+    padding-top: 50px;
+}    
+
+#wrap {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: -20px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+#hero-black { 
+    background: url(../images/SP-CE-Color2.png);
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;   
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 335px;
+    margin: auto;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#hero-white {
+    height: 356px;
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+    align-items: center center no-repeat;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#hero-image heading {
+    text-align: center;
+}
+
+.heading {
+    padding-top: 155px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.heading-h2 {
+    padding-top: 35px;
+    color: #242424;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.heading-h3 { 
+    padding-top: 20px;
+    color: #242424;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 12px;
+    font-weight: 300;
+}
+
+ h4 { 
+    padding-top: 25px;
+    color: #cfcece;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 12px;
+    font-weight: 300;
+}
+
+.verify-btn {
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 25px 0;
+    background-color: #000;
+    height: 48px;
+    width: 135px;
+}
+
+button:hover {
+    background: #02cd7f;
+}
+
+/* ---------------------------------------- Have a question?  */
+
+#section-white {
+    width: 600px;
+    height: 386px;
+    border-radius: 8px;
+    padding-top: 100px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.heading-h1 {
+text-align: center;
+font-size: 18px;
+margin-top: -65px;
+color: #000;
+font-weight: 700;
+}
+
+.left-section {
+float: left;
+padding-left: 20px;
+padding-top: 40px;
+}
+
+.top-left h2{
+    font-size: 12px; 
+    font-weight: 400;
+
+}
+
+.bottom-left h2{
+    font-size: 12px; 
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.right-section {
+    float: right;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.top-right h2{
+    font-size: 12px; 
+    font-weight: 400;
+
+}
+
+.bottom-right h2{
+    font-size: 12px; 
+    font-weight: 400;
+    padding-top: 35px;
+}
+
+.read-btn {
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin: 20 0;
+    font-weight: 700;
+    background-color: #000;
+    height: 48px;
+    width: 142px;
+    margin-top: -50px;
+    
+}
+
+
+/* ----------------------------------------Footer */
+
+.social {
+    padding-top: 120px;
+    width: 680px;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icons a {
+    position: relative;
+    color:#242424;
+    font-size: 25px;
+}
+
+.media-icons a:hover{
+    color: #02cd7f;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 30px;
+}
+
+.media-icons a:hover{
+    transform: scale(1.2)
+}
+
+.heading-h5 {
+    padding-top: 15px;
+    color: #242424;
+    font-size: 9px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.privacy-policy {
+    color: #02cd7f;
+}
+
+.heading-h6 {
+    padding-top: 15px;
+    color: #242424;
+    font-size: 9px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.unsubscribe {
+    color: #02cd7f;
+}
+
+
+
+
+
+
+
+
+
+
